@@ -6,5 +6,5 @@ npm-install: ## executa npm install
 npm-build:
 	docker-compose run --rm nuxt-ol npm run build
 
-nuxt-shell: ## acessar shell
-	docker exec -it nuxt.ol /bin/bash
+nuxt-up: ## iniciar serviço
+	docker-compose up -d
